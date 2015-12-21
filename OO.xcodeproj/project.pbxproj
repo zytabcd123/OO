@@ -36,6 +36,8 @@
 		56AAC2201C27D11D002962BA /* ZanEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC20A1C27D11D002962BA /* ZanEntity.swift */; };
 		56AAC2231C27D223002962BA /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2221C27D223002962BA /* HUD.swift */; };
 		56AAC2261C27D442002962BA /* OO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2241C27D442002962BA /* OO.xcdatamodeld */; };
+		56AAC22D1C27F545002962BA /* o1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC22B1C27F545002962BA /* o1.png */; };
+		56AAC22E1C27F545002962BA /* o2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC22C1C27F545002962BA /* o2.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		56AAC2211C27D158002962BA /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		56AAC2221C27D223002962BA /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		56AAC2251C27D442002962BA /* OO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OO.xcdatamodel; sourceTree = "<group>"; };
+		56AAC22B1C27F545002962BA /* o1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o1.png; sourceTree = "<group>"; };
+		56AAC22C1C27F545002962BA /* o2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o2.PNG; sourceTree = "<group>"; };
 		61A159487355E16F42FB25D2 /* Pods-OO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO.release.xcconfig"; path = "Pods/Target Support Files/Pods-OO/Pods-OO.release.xcconfig"; sourceTree = "<group>"; };
 		8ABD8358F057F136ED9CE5CF /* libPods-OO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FE261FA4A7D53061690EBA /* Pods-OO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OO/Pods-OO.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				56AAC1E81C27CFBD002962BA /* LaunchScreen.storyboard */,
 				56AAC1EB1C27CFBD002962BA /* Info.plist */,
 				56AAC2211C27D158002962BA /* Bridging-Header.h */,
+				56AAC22B1C27F545002962BA /* o1.png */,
+				56AAC22C1C27F545002962BA /* o2.PNG */,
 			);
 			path = OO;
 			sourceTree = "<group>";
@@ -246,9 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AAC22D1C27F545002962BA /* o1.png in Resources */,
 				56AAC1EA1C27CFBD002962BA /* LaunchScreen.storyboard in Resources */,
 				56AAC1E71C27CFBD002962BA /* Assets.xcassets in Resources */,
 				56AAC1E51C27CFBD002962BA /* Main.storyboard in Resources */,
+				56AAC22E1C27F545002962BA /* o2.PNG in Resources */,
 				56AAC21A1C27D11D002962BA /* ZHDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
