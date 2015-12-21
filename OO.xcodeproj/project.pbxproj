@@ -7,11 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4404C4CB027DA42DC609B6C9 /* libPods-OO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABD8358F057F136ED9CE5CF /* libPods-OO.a */; };
 		56AAC1E01C27CFBD002962BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1DF1C27CFBD002962BA /* AppDelegate.swift */; };
 		56AAC1E21C27CFBD002962BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1E11C27CFBD002962BA /* ViewController.swift */; };
 		56AAC1E51C27CFBD002962BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC1E31C27CFBD002962BA /* Main.storyboard */; };
 		56AAC1E71C27CFBD002962BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC1E61C27CFBD002962BA /* Assets.xcassets */; };
 		56AAC1EA1C27CFBD002962BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC1E81C27CFBD002962BA /* LaunchScreen.storyboard */; };
+		56AAC20B1C27D11D002962BA /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F21C27D11D002962BA /* CommentCell.swift */; };
+		56AAC20C1C27D11D002962BA /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F31C27D11D002962BA /* DetailCell.swift */; };
+		56AAC20D1C27D11D002962BA /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F41C27D11D002962BA /* DetailTableViewController.swift */; };
+		56AAC20E1C27D11D002962BA /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F51C27D11D002962BA /* EditTableViewController.swift */; };
+		56AAC20F1C27D11D002962BA /* ForwardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F61C27D11D002962BA /* ForwardTableViewController.swift */; };
+		56AAC2101C27D11D002962BA /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F71C27D11D002962BA /* HistoryCell.swift */; };
+		56AAC2111C27D11D002962BA /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F81C27D11D002962BA /* HistoryTableViewController.swift */; };
+		56AAC2121C27D11D002962BA /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1F91C27D11D002962BA /* InputView.swift */; };
+		56AAC2131C27D11D002962BA /* LikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1FA1C27D11D002962BA /* LikeCell.swift */; };
+		56AAC2141C27D11D002962BA /* ReleaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1FB1C27D11D002962BA /* ReleaseTableViewController.swift */; };
+		56AAC2151C27D11D002962BA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1FC1C27D11D002962BA /* UserCell.swift */; };
+		56AAC2161C27D11D002962BA /* UserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1FD1C27D11D002962BA /* UserCollectionViewController.swift */; };
+		56AAC2171C27D11D002962BA /* UserHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC1FE1C27D11D002962BA /* UserHeadView.swift */; };
+		56AAC2181C27D11D002962BA /* ZHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2001C27D11D002962BA /* ZHConfig.swift */; };
+		56AAC2191C27D11D002962BA /* ZHDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2021C27D11D002962BA /* ZHDatePicker.m */; };
+		56AAC21A1C27D11D002962BA /* ZHDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC2031C27D11D002962BA /* ZHDatePicker.xib */; };
+		56AAC21B1C27D11D002962BA /* ComEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2051C27D11D002962BA /* ComEntity.swift */; };
+		56AAC21C1C27D11D002962BA /* FriendDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2061C27D11D002962BA /* FriendDetailEntity.swift */; };
+		56AAC21E1C27D11D002962BA /* PhotoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2081C27D11D002962BA /* PhotoEntity.swift */; };
+		56AAC21F1C27D11D002962BA /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2091C27D11D002962BA /* UserEntity.swift */; };
+		56AAC2201C27D11D002962BA /* ZanEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC20A1C27D11D002962BA /* ZanEntity.swift */; };
+		56AAC2231C27D223002962BA /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2221C27D223002962BA /* HUD.swift */; };
+		56AAC2261C27D442002962BA /* OO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC2241C27D442002962BA /* OO.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +46,34 @@
 		56AAC1E61C27CFBD002962BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56AAC1E91C27CFBD002962BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56AAC1EB1C27CFBD002962BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AAC1F21C27D11D002962BA /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		56AAC1F31C27D11D002962BA /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		56AAC1F41C27D11D002962BA /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		56AAC1F51C27D11D002962BA /* EditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		56AAC1F61C27D11D002962BA /* ForwardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardTableViewController.swift; sourceTree = "<group>"; };
+		56AAC1F71C27D11D002962BA /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		56AAC1F81C27D11D002962BA /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		56AAC1F91C27D11D002962BA /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		56AAC1FA1C27D11D002962BA /* LikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeCell.swift; sourceTree = "<group>"; };
+		56AAC1FB1C27D11D002962BA /* ReleaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseTableViewController.swift; sourceTree = "<group>"; };
+		56AAC1FC1C27D11D002962BA /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		56AAC1FD1C27D11D002962BA /* UserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewController.swift; sourceTree = "<group>"; };
+		56AAC1FE1C27D11D002962BA /* UserHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHeadView.swift; sourceTree = "<group>"; };
+		56AAC2001C27D11D002962BA /* ZHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHConfig.swift; sourceTree = "<group>"; };
+		56AAC2011C27D11D002962BA /* ZHDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDatePicker.h; sourceTree = "<group>"; };
+		56AAC2021C27D11D002962BA /* ZHDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDatePicker.m; sourceTree = "<group>"; };
+		56AAC2031C27D11D002962BA /* ZHDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHDatePicker.xib; sourceTree = "<group>"; };
+		56AAC2051C27D11D002962BA /* ComEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComEntity.swift; sourceTree = "<group>"; };
+		56AAC2061C27D11D002962BA /* FriendDetailEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailEntity.swift; sourceTree = "<group>"; };
+		56AAC2081C27D11D002962BA /* PhotoEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEntity.swift; sourceTree = "<group>"; };
+		56AAC2091C27D11D002962BA /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		56AAC20A1C27D11D002962BA /* ZanEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZanEntity.swift; sourceTree = "<group>"; };
+		56AAC2211C27D158002962BA /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		56AAC2221C27D223002962BA /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		56AAC2251C27D442002962BA /* OO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OO.xcdatamodel; sourceTree = "<group>"; };
+		61A159487355E16F42FB25D2 /* Pods-OO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO.release.xcconfig"; path = "Pods/Target Support Files/Pods-OO/Pods-OO.release.xcconfig"; sourceTree = "<group>"; };
+		8ABD8358F057F136ED9CE5CF /* libPods-OO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FE261FA4A7D53061690EBA /* Pods-OO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OO/Pods-OO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4404C4CB027DA42DC609B6C9 /* libPods-OO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +93,8 @@
 			children = (
 				56AAC1DE1C27CFBD002962BA /* OO */,
 				56AAC1DD1C27CFBD002962BA /* Products */,
+				A8D832F3381D5111B7F60C9A /* Pods */,
+				638BF6691CD529604EE4D59E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,80 @@
 		56AAC1DE1C27CFBD002962BA /* OO */ = {
 			isa = PBXGroup;
 			children = (
+				56AAC1F11C27D11D002962BA /* Class */,
+				56AAC1FF1C27D11D002962BA /* Componets */,
+				56AAC2041C27D11D002962BA /* Model */,
 				56AAC1DF1C27CFBD002962BA /* AppDelegate.swift */,
 				56AAC1E11C27CFBD002962BA /* ViewController.swift */,
 				56AAC1E31C27CFBD002962BA /* Main.storyboard */,
 				56AAC1E61C27CFBD002962BA /* Assets.xcassets */,
 				56AAC1E81C27CFBD002962BA /* LaunchScreen.storyboard */,
 				56AAC1EB1C27CFBD002962BA /* Info.plist */,
+				56AAC2211C27D158002962BA /* Bridging-Header.h */,
 			);
 			path = OO;
+			sourceTree = "<group>";
+		};
+		56AAC1F11C27D11D002962BA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC1FB1C27D11D002962BA /* ReleaseTableViewController.swift */,
+				56AAC1F61C27D11D002962BA /* ForwardTableViewController.swift */,
+				56AAC1F41C27D11D002962BA /* DetailTableViewController.swift */,
+				56AAC1F21C27D11D002962BA /* CommentCell.swift */,
+				56AAC1F31C27D11D002962BA /* DetailCell.swift */,
+				56AAC1F91C27D11D002962BA /* InputView.swift */,
+				56AAC1FA1C27D11D002962BA /* LikeCell.swift */,
+				56AAC1F81C27D11D002962BA /* HistoryTableViewController.swift */,
+				56AAC1F71C27D11D002962BA /* HistoryCell.swift */,
+				56AAC1FD1C27D11D002962BA /* UserCollectionViewController.swift */,
+				56AAC1FC1C27D11D002962BA /* UserCell.swift */,
+				56AAC1FE1C27D11D002962BA /* UserHeadView.swift */,
+				56AAC1F51C27D11D002962BA /* EditTableViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		56AAC1FF1C27D11D002962BA /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC2221C27D223002962BA /* HUD.swift */,
+				56AAC2001C27D11D002962BA /* ZHConfig.swift */,
+				56AAC2011C27D11D002962BA /* ZHDatePicker.h */,
+				56AAC2021C27D11D002962BA /* ZHDatePicker.m */,
+				56AAC2031C27D11D002962BA /* ZHDatePicker.xib */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		56AAC2041C27D11D002962BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC2051C27D11D002962BA /* ComEntity.swift */,
+				56AAC2061C27D11D002962BA /* FriendDetailEntity.swift */,
+				56AAC2081C27D11D002962BA /* PhotoEntity.swift */,
+				56AAC2091C27D11D002962BA /* UserEntity.swift */,
+				56AAC20A1C27D11D002962BA /* ZanEntity.swift */,
+				56AAC2241C27D442002962BA /* OO.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		638BF6691CD529604EE4D59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABD8358F057F136ED9CE5CF /* libPods-OO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8D832F3381D5111B7F60C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE261FA4A7D53061690EBA /* Pods-OO.debug.xcconfig */,
+				61A159487355E16F42FB25D2 /* Pods-OO.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56AAC1EE1C27CFBD002962BA /* Build configuration list for PBXNativeTarget "OO" */;
 			buildPhases = (
+				B46E4C82876B27F2B8882489 /* Check Pods Manifest.lock */,
 				56AAC1D81C27CFBD002962BA /* Sources */,
 				56AAC1D91C27CFBD002962BA /* Frameworks */,
 				56AAC1DA1C27CFBD002962BA /* Resources */,
+				C40E7BFB98B12CE7201FB020 /* Embed Pods Frameworks */,
+				2FAE89397CC10DB1D550C9B2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,10 +249,59 @@
 				56AAC1EA1C27CFBD002962BA /* LaunchScreen.storyboard in Resources */,
 				56AAC1E71C27CFBD002962BA /* Assets.xcassets in Resources */,
 				56AAC1E51C27CFBD002962BA /* Main.storyboard in Resources */,
+				56AAC21A1C27D11D002962BA /* ZHDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FAE89397CC10DB1D550C9B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OO/Pods-OO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46E4C82876B27F2B8882489 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C40E7BFB98B12CE7201FB020 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OO/Pods-OO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56AAC1D81C27CFBD002962BA /* Sources */ = {
@@ -136,7 +309,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AAC1E21C27CFBD002962BA /* ViewController.swift in Sources */,
+				56AAC2191C27D11D002962BA /* ZHDatePicker.m in Sources */,
+				56AAC2181C27D11D002962BA /* ZHConfig.swift in Sources */,
+				56AAC2151C27D11D002962BA /* UserCell.swift in Sources */,
+				56AAC21B1C27D11D002962BA /* ComEntity.swift in Sources */,
+				56AAC20F1C27D11D002962BA /* ForwardTableViewController.swift in Sources */,
+				56AAC20E1C27D11D002962BA /* EditTableViewController.swift in Sources */,
+				56AAC2171C27D11D002962BA /* UserHeadView.swift in Sources */,
+				56AAC20D1C27D11D002962BA /* DetailTableViewController.swift in Sources */,
+				56AAC2201C27D11D002962BA /* ZanEntity.swift in Sources */,
+				56AAC2161C27D11D002962BA /* UserCollectionViewController.swift in Sources */,
+				56AAC2261C27D442002962BA /* OO.xcdatamodeld in Sources */,
+				56AAC21F1C27D11D002962BA /* UserEntity.swift in Sources */,
+				56AAC21C1C27D11D002962BA /* FriendDetailEntity.swift in Sources */,
 				56AAC1E01C27CFBD002962BA /* AppDelegate.swift in Sources */,
+				56AAC2111C27D11D002962BA /* HistoryTableViewController.swift in Sources */,
+				56AAC20C1C27D11D002962BA /* DetailCell.swift in Sources */,
+				56AAC2131C27D11D002962BA /* LikeCell.swift in Sources */,
+				56AAC2121C27D11D002962BA /* InputView.swift in Sources */,
+				56AAC2101C27D11D002962BA /* HistoryCell.swift in Sources */,
+				56AAC2141C27D11D002962BA /* ReleaseTableViewController.swift in Sources */,
+				56AAC2231C27D223002962BA /* HUD.swift in Sources */,
+				56AAC20B1C27D11D002962BA /* CommentCell.swift in Sources */,
+				56AAC21E1C27D11D002962BA /* PhotoEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +442,29 @@
 		};
 		56AAC1EF1C27CFBD002962BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FE261FA4A7D53061690EBA /* Pods-OO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ovfun.OO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OO/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		56AAC1F01C27CFBD002962BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A159487355E16F42FB25D2 /* Pods-OO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ovfun.OO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OO/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,8 +487,22 @@
 				56AAC1F01C27CFBD002962BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56AAC2241C27D442002962BA /* OO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56AAC2251C27D442002962BA /* OO.xcdatamodel */,
+			);
+			currentVersion = 56AAC2251C27D442002962BA /* OO.xcdatamodel */;
+			path = OO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 56AAC1D41C27CFBD002962BA /* Project object */;
 }

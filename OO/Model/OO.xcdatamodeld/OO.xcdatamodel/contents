@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="ComEntity" representedClassName=".ComEntity" syncable="YES">
+        <attribute name="cid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ctime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rename" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendDetailEntity" inverseName="com" inverseEntity="FriendDetailEntity" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserEntity" inverseName="com" inverseEntity="UserEntity" syncable="YES"/>
+    </entity>
+    <entity name="FriendDetailEntity" representedClassName=".FriendDetailEntity" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ctime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="forwardContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="com" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ComEntity" inverseName="friend" inverseEntity="ComEntity" syncable="YES"/>
+        <relationship name="forwardPhoto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoEntity" inverseName="forward" inverseEntity="PhotoEntity" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PhotoEntity" inverseName="friend" inverseEntity="PhotoEntity" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserEntity" inverseName="detail" inverseEntity="UserEntity" syncable="YES"/>
+        <relationship name="zan" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ZanEntity" inverseName="friend" inverseEntity="ZanEntity" syncable="YES"/>
+    </entity>
+    <entity name="PhotoEntity" representedClassName=".PhotoEntity" syncable="YES">
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="forward" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendDetailEntity" inverseName="forwardPhoto" inverseEntity="FriendDetailEntity" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendDetailEntity" inverseName="photos" inverseEntity="FriendDetailEntity" syncable="YES"/>
+    </entity>
+    <entity name="UserEntity" representedClassName=".UserEntity" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="com" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ComEntity" inverseName="user" inverseEntity="ComEntity" syncable="YES"/>
+        <relationship name="detail" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FriendDetailEntity" inverseName="user" inverseEntity="FriendDetailEntity" syncable="YES"/>
+        <relationship name="zan" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ZanEntity" inverseName="user" inverseEntity="ZanEntity" syncable="YES"/>
+    </entity>
+    <entity name="ZanEntity" representedClassName=".ZanEntity" syncable="YES">
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FriendDetailEntity" inverseName="zan" inverseEntity="FriendDetailEntity" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserEntity" inverseName="zan" inverseEntity="UserEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ZanEntity" positionX="-54" positionY="357" width="128" height="73"/>
+        <element name="FriendDetailEntity" positionX="-405" positionY="246" width="128" height="193"/>
+        <element name="ComEntity" positionX="-36" positionY="9" width="128" height="133"/>
+        <element name="UserEntity" positionX="-603" positionY="-72" width="128" height="133"/>
+        <element name="PhotoEntity" positionX="-36" positionY="174" width="128" height="103"/>
+    </elements>
+</model>
